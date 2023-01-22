@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+    .consultation {
+        min-height: 300px;
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .title_left {
+            text-align: center;
+            font-size: 20px;
+        }
+        .feed-form {
+            margin: 0 auto;
+        }
+    }
+}
