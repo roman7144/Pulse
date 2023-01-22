@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    .advantages {
+        &__icons {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+    }
+}

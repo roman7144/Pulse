@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+    .header {
+        margin: 0 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &__official {
+            font-size: 14px;
+            margin-left: auto;
+            span {
+                font-size: 20px;
+            }
+        }
+        &__contacts {
+            margin-top: 10px;
+            margin-left: auto;
+            justify-content: center;
+        }
+        &__phone {
+            font-size: 22px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 575px) {   
+}
