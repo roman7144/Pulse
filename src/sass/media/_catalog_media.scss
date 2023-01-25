@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .catalog {
+        &__tab {
+            width: 160px;
+            font-size: 16px;
+        }
+        &-item {
+            width: 50%;
+        }
+    }
+}

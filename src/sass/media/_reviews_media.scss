@@ -1,0 +1,21 @@
+@media (max-width: 991px) {
+    .reviews {
+        &__img {
+            width: 150px;
+            height: 150px;
+        }
+        &__card {
+            width: 70%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .reviews {
+        &__cards {
+            justify-content: center;
+        }
+        &__img {
+            margin-bottom: 20px;
+        }
+    }
+}
