@@ -29,5 +29,11 @@
             color: $main-color;
             text-decoration-line: underline;
         }
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
 }
